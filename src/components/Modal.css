@@ -1,0 +1,123 @@
+/* Modal.css */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+
+  .modal-content {
+    background-color: #2A2A2A;
+    width: 350px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  .modal-text {
+    color: #d8d8d8;
+  }
+
+/* Error Modal */
+
+  #error-modal-btn {
+    margin-top: 30px;
+  }
+  
+/* Progress Modal */
+
+  .loader {
+    border: 4px solid white;
+    border-radius: 50%;
+    border-top: 4px solid #3498db; /* Change to your desired color */
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite; /* Spin animation */
+    margin: 20px auto; /* Center the loader */
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+/* Delete Modal */
+
+.modal-delete {
+  margin-left: 50px;
+  background-color: rgb(189, 28, 28);
+}
+
+.modal-cancel {
+  margin-right: 50px;
+}
+
+.modal-delete:hover {
+  background-color: rgb(224, 88, 88);
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+/* Login Modal */
+
+.modal-input-container {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+}
+
+.modal-input {
+  width: 200px;
+  margin-left: 5px;
+}
+
+input[type="password"] {
+  height: 40px;
+  font-size: 14px;
+  color: #d8d8d8;
+  background-color: #232323;
+  border: 1px solid #353535;
+  border-radius: 6px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  box-sizing: border-box;
+}
+
+input:-webkit-autofill {
+-webkit-box-shadow: 0 0 0px 1000px #232323 inset;
+box-shadow: 0 0 0px 1000px #232323 inset;
+-webkit-text-fill-color: white !important;
+font-size: 14px;
+color: #d8d8d8;
+border: 1px solid #353535;
+}
+
+input:-webkit-autofill:focus {
+outline: none;
+}
+
+#login-button {
+  width: 80px;
+  margin-top: 20px;
+  margin-right: 35px;
+}
+
+#close-button {
+  width: 80px;
+  margin-top: 20px;
+  margin-left: 35px;
+}

@@ -1,0 +1,11 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 960" width="960" height="960">
+	<title>checkbox1_checked-svg</title>
+	<defs>
+		<image  width="440" height="431" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAbgAAAGvAQMAAAAT11LTAAAAAXNSR0IB2cksfwAAAANQTFRF////p8QbyAAAAGFJREFUeJztyzENAAAMA6DVv+l5aNIPfnKdeJ7neZ7neZ7neZ7neZ7neZ7neZ7neZ7neZ7neZ7neZ7neZ7neZ7neZ7neZ7neZ7neZ7neZ7neZ7neZ7neZ7neZ7neZ7neZP376kBsJgMBDUAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		.s0 { fill: #1e1e1e } 
+	</style>
+	<use id="Layer 1" href="#img1" x="258" y="268"/>
+	<path fill-rule="evenodd" class="s0" d="m216 816q-29.7 0-50.8-21.1-21.2-21.2-21.2-50.9v-528q0-29.7 21.2-50.9 21.1-21.1 50.8-21.1h528q29.7 0 50.9 21.1 21.1 21.2 21.1 50.9v528q0 29.7-21.1 50.9-21.2 21.1-50.9 21.1zm213-192l238-237-51-51-187 186-85-84-51 51z"/>
+</svg>

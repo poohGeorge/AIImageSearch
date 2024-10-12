@@ -1,0 +1,13 @@
+select {
+    border: 1px solid #353535;
+    padding: 10px;
+    background-color: #232323;
+    color: #d8d8d8;
+    font-size: 14px;
+    border-radius: 6px;
+  }
+  
+  li {
+    font-size: 14px;
+  }
+  
